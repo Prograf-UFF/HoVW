@@ -1,5 +1,5 @@
 hovw-ce2
-docs
+docs/code
 datasets/ce2/*
 datasets/mpeg7-png/*
 # HoVW
@@ -16,6 +16,7 @@ HoVW/Master/dataset/*
 HoVW/Master/datasetOutput/*
 HoVW/src/precison_recall_test*
 HoVW/src/others
+HoVW/executions.py
 *.png
 *.jpg
 *.jpeg
