@@ -1,3 +1,4 @@
+.DS_STORE
 hovw-ce2
 docs/code
 datasets/ce2/*
@@ -33,6 +34,7 @@ HoVW/executions.py
 *.codeword
 *.bagw
 *.txt
+!requirements.txt
 *.potato
 *.zip
 

@@ -1,6 +1,7 @@
 MASTER='Master'
 DIR_IMAGES=$MASTER'/images'
 DIR_DATASET=$MASTER'/dataset'
+DIR_DATA=$MASTER'/data'
 
 DIR_TRAIN=$DIR_DATASET'/train'
 DIR_TEST=$DIR_DATASET'/test'
@@ -29,6 +30,11 @@ fi
 if [ ! -d "$DIR_DATASET" ]; then
     mkdir $DIR_DATASET
     echo "mkdir "$DIR_DATASET
+fi
+
+if [ ! -d "$DIR_DATA" ]; then
+    mkdir $DIR_DATA
+    echo "mkdir "$DIR_DATA
 fi
 
 if [ ! -d "$DIR_TRAIN" ]; then
